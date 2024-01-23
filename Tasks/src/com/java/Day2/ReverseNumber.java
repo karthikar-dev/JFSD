@@ -1,3 +1,5 @@
+package com.java.Day2;
+
 import java.util.Scanner;
 
 public class ReverseNumber {

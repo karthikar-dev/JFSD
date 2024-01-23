@@ -1,3 +1,5 @@
+package com.java.Day2;
+
 public class PrintNumbers {
     public static void main(String[] args) {
 
