@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class User {
-
     //    Main Function
     public static void main(String[] args) {
 
@@ -51,7 +50,7 @@ public class User {
         for (Product p : products) { // for each loop to get the list of products
             double price = p.price;
             int qty = p.quantity;
-            totalPrice += price * qty; // multiply each price with quatity and add it to the total price
+            totalPrice += price * qty; // multiply each price with quantity and add it to the total price
         }
         System.out.println("Overall Price of all Products: " + totalPrice);
     }

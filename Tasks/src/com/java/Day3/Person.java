@@ -1,7 +1,6 @@
 package com.java.Day3;
 
 public class Person {
-
     //   Variable Declaration
     protected String name;
     protected int age = 18;

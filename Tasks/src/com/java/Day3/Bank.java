@@ -2,8 +2,7 @@ package com.java.Day3;
 
 import java.util.Scanner;
 
-// Bank Class Inherited from Account class
-public class Bank extends Account {
+public class Bank extends Account{
     //    Parameterized Constructor
     public Bank(String accNum, double bal) {
         super(accNum, bal);
