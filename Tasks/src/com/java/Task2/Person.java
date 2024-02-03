@@ -1,4 +1,4 @@
-package com.java.Day3;
+package com.java.Task2;
 
 public class Person {
 

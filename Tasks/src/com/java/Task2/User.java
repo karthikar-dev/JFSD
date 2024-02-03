@@ -1,4 +1,4 @@
-package com.java.Day3;
+package com.java.Task2;
 
 import java.util.ArrayList;
 import java.util.List;
