@@ -1,6 +1,4 @@
-package com.java.Day2;
-
-import java.util.Scanner;
+package com.java.Task1;
 
 public class Pattern {
     public static void main(String[] args) {

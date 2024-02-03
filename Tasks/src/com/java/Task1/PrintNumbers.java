@@ -1,4 +1,4 @@
-package com.java.Day2;
+package com.java.Task1;
 
 public class PrintNumbers {
     public static void main(String[] args) {

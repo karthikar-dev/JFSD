@@ -1,4 +1,4 @@
-package com.java.Day2;
+package com.java.Task1;
 
 import java.util.Scanner;
 
