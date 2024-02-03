@@ -1,7 +1,6 @@
 package com.java.Task2;
 
-public class Product extends User {
-
+public class Product extends User{
     //    Variable Declaration
     protected int pid;
     protected double price;
@@ -13,5 +12,4 @@ public class Product extends User {
         this.pid = pid;
         this.quantity = quantity;
     }
-
 }

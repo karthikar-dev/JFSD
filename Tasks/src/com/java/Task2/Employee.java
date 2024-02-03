@@ -45,5 +45,4 @@ public class Employee extends Person {
         System.out.println("Employee Age: " + this.age);
         System.out.println("Employee Salary: " + this.salary);
     }
-
 }
