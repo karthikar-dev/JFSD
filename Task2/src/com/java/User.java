@@ -1,4 +1,4 @@
-package com.java.Task2;
+package com.java;
 
 import java.util.ArrayList;
 import java.util.List;

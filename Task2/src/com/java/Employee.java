@@ -1,5 +1,4 @@
-package com.java.Task2;
-
+package com.java;
 import java.util.Scanner;
 
 public class Employee extends Person {

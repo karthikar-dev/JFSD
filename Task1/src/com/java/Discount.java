@@ -1,12 +1,14 @@
-package com.java.Task1;
+package com.java;
 
 import java.util.Scanner;
 
 public class Discount {
     public static void main(String[] args) {
 
+
         Scanner sc = new Scanner(System.in);
     //  Input from user
+        System.out.println("Enter the amount to find the discount");
         float amount = sc.nextFloat();
         float price = 0;
 

@@ -1,6 +1,8 @@
-package com.java.Task2;
+package com.java;
 
-public class Product extends User{
+import com.java.User;
+
+public class Product extends User {
     //    Variable Declaration
     protected int pid;
     protected double price;

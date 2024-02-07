@@ -1,4 +1,4 @@
-package com.java.Task2;
+package com.java;
 
 public class Person {
     //   Variable Declaration
