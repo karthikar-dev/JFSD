@@ -1,4 +1,9 @@
-package com.java;
+/*
+    Write a java program to Find the smallest number among three numbers.
+*/
+
+
+package com.java.Q4;
 
 import java.util.Scanner;
 

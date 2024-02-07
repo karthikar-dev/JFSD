@@ -1,4 +1,13 @@
-package com.java;
+/*
+    Create class Product (pid, price, quantity) with parameterized constructor.
+    Create a main function in different class (say XYZ) and perform following task:
+    a. Accept five product information from user and store in an array
+    b. Find Pid of the product with the highest price.
+    c . Create method (with array of product's object as argument) in XYZ class to calculate and return the total
+amount spent on all products. (amount spent on single product price of product quantity of product
+ */
+
+package com.java.Q2;
 
 import java.util.ArrayList;
 import java.util.List;

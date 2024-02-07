@@ -1,5 +1,9 @@
-package com.java;
+/*
+    Write down the program to reverse the given number using loops.
+    Input = 876 Output -678
+*/
 
+package com.java.Q3;
 import java.util.Scanner;
 
 public class ReverseNumber {

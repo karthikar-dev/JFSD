@@ -1,3 +1,11 @@
+/*
+    1.Design a Java program that uses OOP principles to model the Book Create two classes: Book and Library.
+    The Book class should have attributes such as bookID, title, author, and is Available.
+    The Library class should include an array to store book objects.
+    2. Provide methods to add book, remove book search book (using id)and display books. Write a Java program that
+    demonstrates the use of these classes and methods by allowing the user to interact with the library system.
+
+ */
 package com.java.Q1;
 
 import java.util.Scanner;

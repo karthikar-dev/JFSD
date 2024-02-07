@@ -1,6 +1,4 @@
-package com.java;
-
-import com.java.User;
+package com.java.Q2;
 
 public class Product extends User {
     //    Variable Declaration

@@ -1,8 +1,16 @@
-package com.java;
+/*
+    Create Class Account with data member As Balance. Create two constructors (no argument, and two arguments)
+    and perform following task
+    a. method to deposit the amount to the account
+    b. method to withdraw the amount from the account.
+    c. method to display the Balance
+ */
+
+package com.java.Q3;
 
 import java.util.Scanner;
 
-public class Bank extends Account{
+public class Bank extends Accounts{
     //    Parameterized Constructor
     public Bank(String accNum, double bal) {
         super(accNum, bal);

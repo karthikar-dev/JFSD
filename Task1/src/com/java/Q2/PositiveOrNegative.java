@@ -1,4 +1,7 @@
-package com.java;
+/*
+    Write a program that find a given number is negative or positive.
+ */
+package com.java.Q2;
 
 import java.util.Scanner;
 public class PositiveOrNegative {

@@ -1,5 +1,12 @@
-package com.java;
+/*
+    Write a Java program that takes the purchase amount as input and calculates the final payable amount
+    after applying the discount.
+    1. If the purchase amount is less than 500, no discount is applied.
+    2. If the purchase amount is between 500 and 1000, a 10% discount is applied.
+    3. If the purchase amount is greater than 1000 a 20% discount is applied.
+ */
 
+package com.java.Q5;
 import java.util.Scanner;
 
 public class Discount {

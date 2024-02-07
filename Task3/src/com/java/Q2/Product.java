@@ -1,3 +1,12 @@
+/*
+    Create Interface Taxable with members sales Tax-7% and income Tax=10.5%, create abstract method calc Tax().
+    a. Create class Employee (empld,name, salary) and implement Taxable to calculate income Tax on yearly salary.
+    b. Create class Product(pid,price, quantity) and implement Taxable to calculate sales Tax on unit price of product.
+    c. Create class for main method(Say XYZ), accept employee information and a product information from user and
+    print income tax and sales tax respectively
+
+ */
+
 package com.java.Q2;
 
 import java.util.Scanner;

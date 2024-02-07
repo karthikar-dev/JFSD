@@ -1,4 +1,13 @@
-package com.java;
+/*
+    Write a java program to print bellowed pattern
+    55555
+    54444
+    54333
+    54322
+    54321
+ */
+
+package com.java.Q6;
 
 public class Pattern {
     public static void main(String[] args) {

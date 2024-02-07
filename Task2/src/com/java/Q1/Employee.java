@@ -1,4 +1,10 @@
-package com.java;
+/*
+    Define a base class Person with attributes name and age
+    Create a subclass Employee that inherits from Person and adds attributes like employeeID and salary
+    Use the super keyword to initialize the Person attributes in the Employee constructor
+ */
+
+package com.java.Q1;
 import java.util.Scanner;
 
 public class Employee extends Person {
@@ -23,8 +29,8 @@ public class Employee extends Person {
         //        Looping the employee count to fetch details.
         for (int i = 0; i < count; i++) {
             System.out.println("Enter the employee details as Name, Employee id, Age, Salary");
-            String emp_name = sc.nextLine();
-            String emp_id = sc.nextLine();
+            String emp_id = sc.next();
+            String emp_name = sc.next();
             int emp_age = sc.nextInt();
             double emp_salary = sc.nextDouble();
             emp[i] = new Employee(emp_name, emp_id, emp_age, emp_salary);
