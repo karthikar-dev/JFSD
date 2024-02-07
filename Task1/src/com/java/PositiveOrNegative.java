@@ -1,4 +1,4 @@
-package com.java.Task1;
+package com.java;
 
 import java.util.Scanner;
 public class PositiveOrNegative {

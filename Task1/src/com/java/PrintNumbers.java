@@ -1,4 +1,4 @@
-package com.java.Task1;
+package com.java;
 
 public class PrintNumbers {
     public static void main(String[] args) {
