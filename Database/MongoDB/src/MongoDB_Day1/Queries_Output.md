@@ -64,6 +64,10 @@
         		db.products.deleteMany({ "_id": { $in: doc.ids } });
     	});
 
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/bf343185-d466-41a8-9c97-6daa25180e90)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/ce48c456-e7c5-4466-8c83-bd63743edb72)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/5f8e3073-d9b2-4852-8046-9859a51d026d)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/ad58ed54-a6ef-40ea-a698-34676fd3779d)
 
 
 
