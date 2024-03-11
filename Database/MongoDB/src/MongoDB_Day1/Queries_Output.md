@@ -4,47 +4,56 @@
 #### 1.	Find all the information about each product:
      
     productDB> db.products.find({})
-![img_1.png](Output Screenshots/img_1.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/a5525f65-03a2-4b80-9309-d7dcc5031eff)
+
 
 #### 2.	Find the product price which are between 400 to 800:
     
     productDB> db.products.find({ product_price: { $gte: 400, $lte: 800 } })
-![img_2.png](Output Screenshots/img_2.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/ba9291ee-8dca-46e6-a4dc-20d9a189a47d)
+
 
 #### 3.	Find the product price which are not between 400 to 600:??	
     
     productDB> db.products.find({ product_price: { $not: { $gte: 400, $lte: 600 } } })
-![img_3.png](Output Screenshots/img_3.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/c00ff9c2-c294-4e9f-9a36-89e253a20ac4)
+
 
 #### 4.	List the four products which are greater than 500 in price:
     
     productDB> db.products.find({ product_price: { $gt: 500 } }).limit(4) 
-![img_4.png](Output Screenshots/img_4.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/06def511-77db-4735-9af9-c8504079f2d0)
+
 
 #### 5.	Find the product name and product material of each product:??	
     
     productDB> db.products.find({}, {product_name: 1, product_material: 1, })
-![img_5.png](Output Screenshots/img_5.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/c0a63a03-8cac-4c1d-aea3-ac75caade0e6)
+
 
 #### 6.	Find the product with a row id of 10:	
     
     productDB> db.products.findOne({ "id": "10" })
-![img_6.png](Output Screenshots/img_6.png)
+<img width="371" alt="image" src="https://github.com/karthikar-dev/JFSD/assets/86464165/15c61474-eff7-4ae5-9db0-7b10124520af">
+
 
 #### 7.	Find only the product name and product material:
 
     productDB> db.products.find({}, { product_name: 1, product_material: 1})
-![img_7.png](Output Screenshots/img_7.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/5a6c3b64-d521-4fbd-8a6d-9c6ccf0032a9)
+
 
 #### 8.	Find all products which contain the value "soft" in product material:
     
     productDB> db.products.find({ product_material: /soft/i })
-![img_8.png](Output Screenshots/img_8.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/95d964ed-d472-453e-9cce-b5388d78abb9)
+
 
 #### 9.	Find products which contain product color "indigo" and product price 492.00:
 
 	productDB> db.products.find({product_color: "indigo", product_price: 492.00 })
-![img_9.png](Output Screenshots/img_9.png)
+![image](https://github.com/karthikar-dev/JFSD/assets/86464165/c56e490d-5cb9-48d7-ac41-3070d4d9db80)
+
 
 #### 10.	Delete the products which product price values are the same:
 
@@ -55,9 +64,6 @@
         		db.products.deleteMany({ "_id": { $in: doc.ids } });
     	});
 
-![img_10.png](Output Screenshots/img_10.png)
-![img_11.png](Output Screenshots/img_11.png)
-![img_12.png](Output Screenshots/img_12.png)
-![img_13.png](Output Screenshots/img_13.png)
+
 
 
